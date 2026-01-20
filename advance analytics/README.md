@@ -83,11 +83,12 @@ All notebooks and generated visuals are documented below.
 
 ## Repository Structure (Advanced Analytics)
 
-analytics/
-│
-├── customer_behaviour_analytics.ipynb/ # Jupyter notebooks for RFM, CLV, churn & value analysis
 
-└── README.md # Documentation for advanced analytics
+| Path | Description |
+|------|------------|
+| `advance analytics/customer_behaviour_analytics.ipynb`| Jupyter notebooks for RFM, CLV, churn & value analysis |
+| `advance analytics/README.md` | Documentation for advanced analytics |
+
 
 
 ---
