@@ -137,8 +137,6 @@ The data architecture for this project follows Medallion Architecture (*Bronze*,
 | `doc/python charts/05_cust_dist_by_engage_level.png` | Customer distribution by engagement level |
 | `doc/python charts/06_total_revenue_by_engage_level.png` | Total revenue by engagement level |
 | `README.md` | Main project overview and documentation |
-| `requirements.txt` | Python dependencies |
-
 
 
 ---
