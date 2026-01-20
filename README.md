@@ -102,7 +102,6 @@ The data architecture for this project follows Medallion Architecture (*Bronze*,
 
 ---
 
-## 📂 Repository Structure
 
 ## 📂 Repository Structure
 
