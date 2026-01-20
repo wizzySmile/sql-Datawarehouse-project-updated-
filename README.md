@@ -104,28 +104,41 @@ The data architecture for this project follows Medallion Architecture (*Bronze*,
 
 ## 📂 Repository Structure
 
+## 📂 Repository Structure
+
 | Path | Description |
 |------|------------|
-| `datasets/` | Raw datasets used for the project (ERP and CRM data) |
-| `docs/` | Project documentation and architecture details |
-| `docs/etl.drawio` | ETL techniques and workflows |
-| `docs/data_architecture.drawio` | Overall system architecture |
-| `docs/data_catalog.md` | Dataset catalog and metadata |
-| `docs/data_flow.drawio` | Data flow diagrams |
-| `docs/data_models.drawio` | Star schema data models |
-| `scripts/` | SQL scripts for ETL and transformations |
-| `scripts/bronze/` | Extracting and loading raw data |
-| `scripts/silver/` | Cleaning and transforming data |
-| `scripts/gold/` | Creating analytical models |
-| `analytics/` | Python-based advanced analytics |
-| `analytics/notebooks/` | Jupyter notebooks (RFM, CLV, churn analysis) |
-| `analytics/images/` | Generated visualizations |
-| `analytics/README.md` | Analytics documentation |
-| `tests/` | Test scripts and data quality checks |
-| `README.md` | Project overview and instructions |
-| `LICENSE` | License information for the repository |
-| `.gitignore` | Files and directories ignored by Git |
-| `requirements.txt` | Project dependencies |
+| `dataset/` | Source data used for the project |
+| `dataset/source_crm/` | CRM source system data (CSV files) |
+| `dataset/source_erp/` | ERP source system data (CSV files) |
+| `scripts/` | SQL scripts for data warehouse creation and transformations |
+| `scripts/01_create schemas (bronze,silver,gold)/` | SQL scripts to create Bronze, Silver, and Gold schemas |
+| `scripts/02_bronze/` | SQL scripts for loading raw data into the Bronze layer |
+| `scripts/03_data cleaning/` | SQL scripts for transforming data from Bronze to Silver |
+| `scripts/04_silver/` | SQL scripts for Silver-layer tables, procedures, and quality checks |
+| `scripts/05_gold/` | SQL scripts for Gold-layer views, analytics, and quality checks |
+| `scripts/06_reports/` | SQL scripts for analytical and business reports |
+| `advance analytics/` | Python-based advanced customer analytics |
+| `advance analytics/README.md` | Documentation for advanced analytics |
+| `advance analytics/customer_behaviour_analytics.ipynb` | Jupyter notebook for RFM, CLV, churn & value analysis |
+| `docs/` | Project documentation and diagrams |
+| `docs/data warehouse overview/` | Data warehouse design and documentation |
+| `docs/data warehouse overview/01_data_architecture.drawio.png` | Data architecture diagram |
+| `docs/data warehouse overview/02_DataFlow.drawio.png` | Data flow diagram |
+| `docs/data warehouse overview/03_integration_model.drawio.png` | Integration model diagram |
+| `docs/data warehouse overview/04_DataModel.drawio.png` | Star schema data model |
+| `docs/data warehouse overview/05_data_catalog.md` | Data catalog and metadata |
+| `docs/tableau dashboard/tableau dashboard link.md` | Tableau dashboard link |
+| `doc/python charts/` | Visualizations generated from Python analysis |
+| `doc/python charts/01_avg_recency_by_engage_level.png` | Average recency by engagement level |
+| `doc/python charts/02_avg_clv_by_engage_level.png` | Average CLV by engagement level |
+| `doc/python charts/03_cust_value_engage_overview.png` | Customer value & engagement overview |
+| `doc/python charts/04_avg_cust_lifetime_value_by_engage_level.png` | Average customer lifetime value |
+| `doc/python charts/05_cust_dist_by_engage_level.png` | Customer distribution by engagement level |
+| `doc/python charts/06_total_revenue_by_engage_level.png` | Total revenue by engagement level |
+| `README.md` | Main project overview and documentation |
+| `requirements.txt` | Python dependencies |
+
 
 
 ---
