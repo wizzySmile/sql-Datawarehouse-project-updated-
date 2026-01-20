@@ -94,7 +94,7 @@ Extend dashboard-level insights with advanced exploratory data analysis using Py
 
 The data architecture for this project follows Medallion Architecture (*Bronze*, *Silver*, and *Gold* layers):
 
-![Data Architecture](docs/data-warehouse-overview/01_data_architecture.drawio.png)
+![Data Architecture](docs/data-warehouse-overview/01-data-architecture.drawio.png)
 
 1. *Bronze Layer*: Stores raw data as-is from the source systems. Data is ingested from CSV files into the SQL Server database.
 2. *Silver Layer*: Includes data cleansing, standardization, and normalization processes to prepare data for analysis.
