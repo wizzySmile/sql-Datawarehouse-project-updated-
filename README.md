@@ -45,7 +45,20 @@ This project involves:
 ### Building the Data Warehouse (Data Engineering)
 
 #### Project Goal
-Build a SQL Server–based data warehouse to support analytical reporting. Leverage Tableau to provide high-level business overviews and KPI monitoring and apply Python-based advanced analytics to explore customer behaviour in depth, enabling data-driven insights, customer segmentation, and informed strategic decision-making.
+The objective of this project is to design and implement an end-to-end analytics solution that transforms raw transactional data into actionable business insights by combining data warehousing, exploratory data analysis, business intelligence, and advanced analytics.
+Specifically, the project aims to:
+
+- Build a modern data warehouse in SQL Server to consolidate data from multiple source systems into a clean, structured, and analysis-ready data model.
+
+- Perform exploratory data analysis (EDA) using SQL to validate data quality, understand data distributions, and establish core business metrics.
+
+- Develop Tableau dashboards to provide stakeholders with a high-level overview of sales performance, customer distribution, product analysis, and key operational KPIs.
+
+- Extend traditional reporting with advanced exploratory and customer analytics in Python to uncover deeper insights into customer behavior, engagement levels, churn risk, and long-term revenue contribution.
+
+- Enable data-driven decision-making by linking operational metrics from the data warehouse with strategic customer insights derived from advanced analytics.
+
+- This integrated approach ensures that business users can both monitor current performance and understand the underlying drivers of growth, retention, and revenue, supporting smarter strategic and operational decisions.
 
 #### Specifications
 - *Data Sources*: Import data from two source systems (ERP and CRM) provided as CSV files.
