@@ -140,6 +140,8 @@ The data architecture for this project follows Medallion Architecture (*Bronze*,
 | `docs/data warehouse overview/03_integration_model.drawio.png` | Integration model diagram |
 | `docs/data warehouse overview/04_DataModel.drawio.png` | Star schema data model |
 | `docs/data warehouse overview/05_data_catalog.md` | Data catalog and metadata |
+| `docs/tableau dashboard/tableau dashboard snapshot` | Tableau dashboard snapshot |
+| `docs/tableau dashboard/tableau dashboard file.twbx` | Tableau package workbook file |
 | `docs/tableau dashboard/tableau dashboard link.md` | Tableau dashboard link |
 | `doc/python charts/` | Visualizations generated from Python analysis |
 | `doc/python charts/01_avg_recency_by_engage_level.png` | Average recency by engagement level |
