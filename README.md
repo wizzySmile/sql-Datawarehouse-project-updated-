@@ -82,7 +82,7 @@ Develop SQL-based analytics and Tableau dashboards to deliver detailed insights 
 SQL is used to generate clean, reliable analytical datasets from the data warehouse, while *Tableau* is used to build interactive dashboards and KPI reports that provide high-level business visibility.
 
 📊 *Tableau Dashboard*  
-- View the interactive Tableau dashboards here: [Tableau Dashboard Link]([https://public.tableau.com/app/profile/wisdom.mpamugo/viz/salesbaraaproject/customersummary](https://public.tableau.com/views/salesbaraaproject/customersummary?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+- View the interactive Tableau dashboards here: [Tableau Dashboard Link](https://public.tableau.com/app/profile/wisdom.mpamugo/viz/salesbaraaproject/customersummary)
 
 These insights empower stakeholders with key business metrics, enabling *data-driven strategic decision-making*.
 
